@@ -1,1 +1,116 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  background: #FFFFFF;
+
+}
+header{
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 72px;
+  justify-content: space-between;
+}
+header .Aloha{
+  color: blueviolet;
+  font-weight: bold;
+  position: absolute;
+  text-decoration: none;
+  top: 24px;
+  left: 85px;
+  width: 96px;
+  height: 24px;
+  opacity: 1;
+  display: flex;
+}
+header ul{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+header ul li{
+  list-style: none;
+  padding: 10px;
+
+}
+header ul li a{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: black;
+}
+header .box1{
+  position: absolute;
+  background-color: wheat;
+  background-repeat: no-repeat;
+  background-image:url( 'D:/angular0314/mountains.jpg' );
+  background-position: center;
+  background-size: cover;
+  top: 72px;
+  left: 0px;
+  width: 100%;
+  height:320px;
+  opacity: 1;
+}
+header label{
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  line-height: 300px;
+}
+header .box2{
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 342px;
+  left: 180px;
+  width: 920px;
+  height: 104px;
+  background-color: #F1F0F8;
+  border-radius: 10px;
+}
+header input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 85%;
+  border-radius: 10px;
+}
+header .Destination{
+  top: 366px;
+  left: 204px;
+  width: 232px;
+  height: 56px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+header .CheckIn{
+  top: 366px;
+  left: 452px;
+  width: 232px;
+  height: 56px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+header .Guests{
+  top: 366px;
+  left: 700px;
+  width: 232px;
+  height: 56px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+header .Search{
+  top: 366px;
+  left: 948px;
+  width: 126px;
+  height: 56px;
+  color: white;
+  background-color: #6C51E2;
+  border-radius: 10px;
+}
+
